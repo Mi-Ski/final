@@ -4,41 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=S, initial-scale=1.0">
     <title>ITcorp</title>
+    <script src="https://kit.fontawesome.com/9fd75ff1ee.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-md" style="z-index: 4; background-color: #F7567C;">
+        <a class="navbar-brand" href="index.html" style="color: white;">ITcorp <i class="fas fa-code"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-light">
+              <li class="nav-item">
+                <a class="nav-link text-reset mx-3" href="aktualne.html">Aktualności</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-reset mx-3" href="rekrutacja.html">Rekrutacja</a>
+              </li>
 
-    <!--Filmik 100%x100%-->
-    <header class="wideo-header container-fluid text-center">
-        <div class="wideo-tlo">
-            <video src="pisanie.mov" autoplay="true" loop="true" muted></video>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-reset" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O nas</a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#dzm1">Start</a>
+                  <a class="dropdown-item" href="#zesp">Zespół</a>
+                  <a class="dropdown-item" href="#">Social media</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Napisz do nas</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Szukaj</button>
+            </form>
+
         </div>
+    </nav>
 
-        <div class="granatowy-overlay"></div>
-        <div class="tytulowy-overlay"></div>
+    <!--Strona startowa 100X100%-->
+    <header>
+        <div class="wideo-header container-fluid text-center">
+            <div class="wideo-tlo">
+                <video src="pisanie.mov" autoplay="true" loop="true" muted></video>
+            </div>
 
-        <div class="header-content mx-auto">
-            <h1 class="display-1"><span class="display-4"></span> Witamy w ITcorp</h1>
-            <p class="mx-5 mb-5">Budowanie aplikacji internetowych stało się właśnie o wiele lepsze...</p>
-            <a href="#" class="btn">Poznaj Nas!</a>
-        </div>
+            <div class="wideo-overlay"></div>
+            <div class="tytulowy-overlay"></div>
+
+            <div class="header-content mx-auto">
+                <h1 class="display-1"><span class="display-4"></span> Witamy w  ITcorp.</h1>
+                <p class="mx-5 mb-5">Budowanie aplikacji internetowych stało się właśnie o wiele prostsze...</p>
+                <a href="#sekcja1" class="bttn btn">Poznaj Nas!</a>
+            </div>
+     <i class="fas fa-angle-double-down fa-2x" id="vv"></i>
+    </div>
     </header>
 
-    
-
-
-    <section class="section section-a">
-        <div class="container">
-        <h1>Sekcja 1</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis modi quos incidunt soluta, amet minima reiciendis non, blanditiis magni dolore repellendus? Deleniti numquam eius possimus saepe dolore exercitationem, ab laboriosam ut debitis magnam porro voluptatibus. Molestiae necessitatibus rem dignissimos corporis molestias voluptatibus, illum, dolores aperiam unde doloremque quidem. Mollitia.</p>
+    <section class="section section-a" id="sekcja1">
+        <div class="container p-5">
+        <h1 id="dzm1">Doświadczeni, zaufani, międzynarodowi</h1>
+        <p id="dzm">ITcorp działa na polskim rynku już 9 lat. W budowaniu aplikacji i stron internetowych doszliśmy do perfekcji. Możesz mieć pewność, że Twoja strona będzie unikatowa i wyróżniająca się na tle konkurencji. Pracujemy jako zespół – nad projektem pracują projektanci – nad wdrożeniem pracują webmasterzy. Tworzymy strony responsywne (RWD) – treści dopasowują się do urządzeń. Nasze strony są optymalizowane zarówno na ekrany komputerów jak i telefonów.</p>
         </div>
     </section>
 
 
-    <section class="text-center container-fluid" style="background-color: #99E1D9; color: azure;">
-    <h1 class="display-4"><span style="font-size: 100px; ">&quot;</span></h1>
+    <section class="text-center container-fluid pb-5" style="background-color: #99E1D9;">
+    <div class="col-xl-6 col-sm-12 offset-xl-2" style="color: azure;">
+        <h1 class="font-weight-light font-italic"><span style="font-size: 100px; font-family: 'Playfair Display', serif;">,,</span>Współpraca z ITcorp była owocna, sprawna i satysfakcjonująca. Zdecydowanie godni polecenia!</h1>
+    </div>
+    <p class="h3 font-weight-light " style="color: rgb(49, 126, 117);">-Jolanta Berg, Javo&Co</p>
     </section>
+
+    <section class="section section-a" id="sekcja2">
+        <div class="container p-5">
+        <h1 class="text-center">Nasz zespół</h1>
+        <p id="zesp" class="text-center">Poznaj ludzi tworzących to, z czego jesteśmy dumni.</p>
+        </div>
+    </section>
+
+    <!--Przyjazne buźki ;) -->
+    <div class="p-2 container-fluid">
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
+                    <img src="img/kamszaf.jpg" class="rounded-circle zdjecie mb-3" alt="kamil">
+                    <h3 class="text-muted">Kamil Szafrański</h3>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
+                <img src="img/mabla.jpg" class="rounded-circle zdjecie mb-3" alt="marcin">
+                <h3 class="text-muted">Marcin Błach</h3>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
+                <img src="img/aniam.jpg" class="rounded-circle zdjecie mb-3" alt="anita">
+                <h3 class="text-muted">Ania Ambrożyk</h3>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
+                <img src="img/karban.jpg" class="rounded-circle zdjecie mb-3" alt="karol">
+                <h3 class="text-muted">Karol Banasik</h3>
+            </div>
+        </div>
+    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

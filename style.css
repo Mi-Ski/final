@@ -1,3 +1,25 @@
+@media only screen and (max-width: 770px) {
+    .tytulowy-overlay {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 771px) {
+    .tytulowy-overlay {
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .tytulowy-overlay {
+        height: 43vh;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
 
 .wideo-header{
     height: 100vh;
@@ -24,38 +46,43 @@
     margin-left: -200%;
 }
 
-.granatowy-overlay{
+.wideo-overlay{
     height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(33, 39, 126);
+    background: rgba(17, 35, 95, 0.664);
     z-index: 1;
     opacity: 0.8;
 }
 
 .tytulowy-overlay{
-    height: 34vh;
     width: 100vw;
     position: absolute;
-    top: 35%;
     left: 0;
-    background: rgb(39, 168, 255);
+    background: rgba(121, 239, 255, 0.246);
     z-index: 1;
-    opacity: 0.2;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .header-content{
     z-index: 3;
 }
 
-.btn{
+.bttn{
     background: #F7567C;
-    color: white;
+    color: azure;
     font-size: 1.3rem;
     padding: 1rem 2rem;
     text-decoration: none;
+}
+
+.btn:hover{
+    color: azure;
+    background-color: #99E1D9;
+    border: none;
 }
 
 .section{
@@ -66,4 +93,24 @@
     background: #333;
     color: #fff;
 }
+
+#vv{
+  z-index: 3;  
+}
+
+#dzm, #zesp{
+    font-size: larger;
+}
+
+.zdjecie{
+    width: 150px;
+    height: 150px;
+}
+
+.gradient {
+    background: linear-gradient(320deg, #77b3c5, #998ac8);
+    background-size: 400% 400%;
+    animation: animowaneTlo 23s ease infinite;
+}
+
 
