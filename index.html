@@ -14,7 +14,7 @@
     <nav class="navbar fixed-top navbar-expand-md" style="z-index: 4; background-color: #F7567C;">
         <a class="navbar-brand" href="index.html" style="color: white;">ITcorp <i class="fas fa-code"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" ><i class="fas fa-bars fa-lg text-light"></i></span>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,9 +30,9 @@
                 <a class="nav-link dropdown-toggle text-reset" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O nas</a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#dzm1">Start</a>
+                  <a class="dropdown-item" href="#sekcja1">Start</a>
                   <a class="dropdown-item" href="#zesp">Zespół</a>
-                  <a class="dropdown-item" href="#">Social media</a>
+                  <a class="dropdown-item" href="#socialMedia">Social media</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Napisz do nas</a>
                 </div>
@@ -68,11 +68,11 @@
     <section class="section section-a" id="sekcja1">
         <div class="container p-5">
         <h1 id="dzm1">Doświadczeni, zaufani, międzynarodowi</h1>
-        <p id="dzm">ITcorp działa na polskim rynku już 9 lat. W budowaniu aplikacji i stron internetowych doszliśmy do perfekcji. Możesz mieć pewność, że Twoja strona będzie unikatowa i wyróżniająca się na tle konkurencji. Pracujemy jako zespół – nad projektem pracują projektanci – nad wdrożeniem pracują webmasterzy. Tworzymy strony responsywne (RWD) – treści dopasowują się do urządzeń. Nasze strony są optymalizowane zarówno na ekrany komputerów jak i telefonów.</p>
+        <p id="dzm" class="mt-4">ITcorp działa na polskim rynku już 9 lat. W budowaniu aplikacji i stron internetowych doszliśmy do perfekcji. Możesz mieć pewność, że Twoja strona będzie unikatowa i wyróżniająca się na tle konkurencji. Pracujemy jako zespół – nad projektem pracują projektanci – nad wdrożeniem pracują webmasterzy. Tworzymy strony i aplikacje responsywne (RWD) – treści dopasowują się do urządzeń. Nasze strony są optymalizowane zarówno na ekrany komputerów jak i telefonów.</p>
         </div>
     </section>
 
-
+    <!--Opinia-->
     <section class="text-center container-fluid pb-5" style="background-color: #99E1D9;">
     <div class="col-xl-6 col-sm-12 offset-xl-2" style="color: azure;">
         <h1 class="font-weight-light font-italic"><span style="font-size: 100px; font-family: 'Playfair Display', serif;">,,</span>Współpraca z ITcorp była owocna, sprawna i satysfakcjonująca. Zdecydowanie godni polecenia!</h1>
@@ -91,24 +91,48 @@
     <div class="p-2 container-fluid">
         <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
-                    <img src="img/kamszaf.jpg" class="rounded-circle zdjecie mb-3" alt="kamil">
-                    <h3 class="text-muted">Kamil Szafrański</h3>
+                <img src="img/kamszaf.jpg" class="rounded-circle zdjecie mb-3" alt="kamil">
+                <h3 class="text-muted">Kamil Szafrański</h3>
+                <p class="text-muted">CEO</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
                 <img src="img/mabla.jpg" class="rounded-circle zdjecie mb-3" alt="marcin">
                 <h3 class="text-muted">Marcin Błach</h3>
+                <p class="text-muted">Director of Software Development</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
                 <img src="img/aniam.jpg" class="rounded-circle zdjecie mb-3" alt="anita">
                 <h3 class="text-muted">Ania Ambrożyk</h3>
+                <p class="text-muted">Creative Director</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-10 mx-auto mb-5">
                 <img src="img/karban.jpg" class="rounded-circle zdjecie mb-3" alt="karol">
                 <h3 class="text-muted">Karol Banasik</h3>
+                <p class="text-muted">Marketing</p>
             </div>
         </div>
     </div>
 
+    <!--footer-->
+    <footer style="background-color: rgb(19, 19, 19);" id="socialMedia">
+        <div class="container">
+          <div class="row container">
+            <div class="col text-center">
+              <h1 class="text-white font-weight-light text-capitalize p-3">ITcorp <i class="fas fa-code"></i></h1>
+              <h4 class="text-white font-weight-light mb-3">Dołącz do nas na tych portalach:</h3>
+              <div class="py-2">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-3" style="color: rgb(41, 123, 255);"></i></a>
+                <a href="#"><i class="fab fa-reddit fa-2x mx-3" style="color: rgb(255, 72, 0);"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-3" style="color: rgb(0, 204, 255);"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-3" style="color: rgb(255, 0, 0);"></i></a>
+                <a href="#"><i class="fab fa-github fa-2x mx-3" style="color: rgb(255, 255, 255);"></i></a>
+              </div>
+              <p class="text-muted py-3" style="font-size: 13px;">&copy; Copyright Michał Skiba 2020</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

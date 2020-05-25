@@ -11,10 +11,11 @@
 </head>
 <body class="gradient">
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-md" style="z-index: 4; background-color: #F7567C;">
+    <div class="container-fluid px-0">
+    <nav class="navbar  navbar-expand-md" style="background-color: #F7567C; width: 100vw;">
         <a class="navbar-brand" href="index.html" style="color: white;">ITcorp <i class="fas fa-code"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg text-light"></i></span>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,17 +24,97 @@
                 <a class="nav-link text-reset mx-3" href="aktualne.html">Aktualności</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-reset mx-3" href="rekrutacja.html">Rekrutacja</a>
+                <a class="nav-link text-dark font-weight-bold mx-3" href="rekrutacja.html">Rekrutacja</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
-              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Szukaj</button>
+              <button class="btn btn-outline-light my-2 my-sm-0 mr-3" type="submit">Szukaj</button>
             </form>
 
         </div>
     </nav>
-f
+
+    <!--Rekrutacja-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h1 class="display-4 p-3">Dołącz do naszego zespołu!</h1>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+
+      <!--Panele z ofertami pracy-->
+      <div class="row">
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Senior Vue.js Developer (Zdalne)</h1>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+
+        </div>
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Ruby on Rails Engineer</h1>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+
+        </div>
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Junior Content Manager</h1>
+          <br>
+          <p>z językiem niemieckim</p>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 100px;">
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Junior Content Manager</h1>
+          <br>
+          <p>z językiem hiszpańskim</p>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+
+        </div>
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Junior Content Manager</h1>
+          <br>
+          <p>z językiem francuskim</p>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+
+        </div>
+        <div class="col-md px-3 py-5 m-1 text-center rounded gradient1">
+          <h1 class="font-weight-light">Specjalista Analityk UX</h1>
+          <br>
+          <a href="#"><buton class="btn btn-success">Aplikuj</buton></a>
+        </div>
+    </div>
+    </div>
+    
+
+    <!--footer-->
+    <footer class="page-footer" style="background-color: rgb(19, 19, 19);" id="socialMedia">
+      <div class="container">
+        <div class="row container">
+          <div class="col text-center">
+            <h1 class="text-white font-weight-light text-capitalize p-3">ITcorp <i class="fas fa-code"></i></h1>
+            <h4 class="text-white font-weight-light mb-3">Dołącz do nas na tych portalach:</h3>
+            <div class="py-2">
+              <a href="#"><i class="fab fa-facebook fa-2x mx-3" style="color: rgb(41, 123, 255);"></i></a>
+              <a href="#"><i class="fab fa-reddit fa-2x mx-3" style="color: rgb(255, 72, 0);"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x mx-3" style="color: rgb(0, 204, 255);"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x mx-3" style="color: rgb(255, 0, 0);"></i></a>
+              <a href="#"><i class="fab fa-github fa-2x mx-3" style="color: rgb(255, 255, 255);"></i></a>
+            </div>
+            <p class="text-muted py-3" style="font-size: 13px;">&copy; Copyright Michał Skiba 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

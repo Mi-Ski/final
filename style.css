@@ -107,8 +107,8 @@ html {
     height: 150px;
 }
 
-.gradient {
-    background: linear-gradient(320deg, #77b3c5, #998ac8);
+.gradient1 {
+    background: linear-gradient(320deg, #df2bff, #8be8ff);
     background-size: 400% 400%;
     animation: animowaneTlo 23s ease infinite;
 }

@@ -11,16 +11,17 @@
 </head>
 <body class="gradient">
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-md" style="z-index: 4; background-color: #F7567C;">
+    <div class="container-fluid px-0">
+    <nav class="navbar  navbar-expand-md" style="background-color: #F7567C; width: 100vw;">
         <a class="navbar-brand" href="index.html" style="color: white;">ITcorp <i class="fas fa-code"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg text-light"></i></span>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto text-light">
               <li class="nav-item">
-                <a class="nav-link text-reset mx-3" href="aktualne.html">Aktualności</a>
+                <a class="nav-link text-dark font-weight-bold mx-3" href="aktualne.html">Aktualności</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-reset mx-3" href="rekrutacja.html">Rekrutacja</a>
@@ -28,12 +29,91 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
-              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Szukaj</button>
+              <button class="btn btn-outline-light my-2 my-sm-0 mr-3" type="submit">Szukaj</button>
             </form>
 
         </div>
     </nav>
-f
+
+    <!--Wybrane "artykuły"-->
+    <div class="container">
+      <div class="row px-3 pb-3 bg-light" style="padding-top: 70px;">
+        <div class="col-sm-2">
+          <p class="font-weight-bold">25 maja 2020</p>
+        </div>
+        <div class="col-sm-9">
+          <h3> <a href="https://aszdziennik.pl/123779,nowy-kierunek-hitem-uczelni-z-warszawy-studenci-beda-studiowac-ai"> Nowy kierunek hitem wśród studentów. Będą studiować sztuczną inteligencję, póki ona im na to pozwala</a></h3>
+          <p class="font-italic text-muted">via Aszdziennik.pl</p>
+        </div>
+        <div class="col-sm-1">
+          <button class="btn btn-info">Share</button>
+        </div>
+      </div>
+
+      <div class="row p-3">
+        <div class="col-sm-2">
+          <p class="font-weight-bold">23 maja 2020</p>
+        </div>
+        <div class="col-sm-9">
+          <h3> <a href="https://preview.redd.it/yawp7bddyt051.jpg?width=640&crop=smart&auto=webp&s=ed842e7987b8c628bb2bac56f8ecfaa193e30364">Szok! Jason Statham sponsorowany przez lobby programistyczne zmienia imię na "JSON"</a></h3>
+          <p class="font-italic text-muted">via Reddit.com</p>
+        </div>
+        <div class="col-sm-1">
+          <button class="btn btn-info">Share</button>
+        </div>
+      </div>
+
+      <div class="row p-3 bg-light">
+        <div class="col-sm-2">
+          <p class="font-weight-bold">20 maja 2020</p>
+        </div>
+        <div class="col-sm-9">
+          <h3> <a href="https://github.com/AceLewis/my_first_calculator.py/blob/master/my_first_calculator.py">Długo oczekiwana aktualizacja: 7000 linii kodu dodaje wsparcie numerów 48, 49 i 50 w aplikacji Kalkulator młodego dewelopera</a></h3>
+          <p class="font-italic text-muted">via Github.com</p>
+        </div>
+        <div class="col-sm-1">
+          <button class="btn btn-info">Share</button>
+        </div>
+      </div>
+
+      <div class="row px-3 pt-3" style="padding-bottom: 70px;">
+        <div class="col-sm-2">
+          <p class="font-weight-bold">19 maja 2020</p>
+        </div>
+        <div class="col-sm-9">
+          <h3> <a href="https://github.com/AceLewis/my_first_calculator.py/blob/master/my_first_calculator.py">Najnowszy projekt ITcorp wstrzymany - trafiono na błąd nieopisany jeszcze na StackOverflow</a></h3>
+          <p class="font-italic text-muted">via ITcorp.surge.sh</p>
+        </div>
+        <div class="col-sm-1">
+          <button class="btn btn-info">Share</button>
+        </div>
+      </div>
+
+    </div>
+    
+    
+
+    <!--footer-->
+    <footer class="page-footer" style="background-color: rgb(19, 19, 19);" id="socialMedia">
+      <div class="container">
+        <div class="row container">
+          <div class="col text-center">
+            <h1 class="text-white font-weight-light text-capitalize p-3">ITcorp <i class="fas fa-code"></i></h1>
+            <h4 class="text-white font-weight-light mb-3">Dołącz do nas na tych portalach:</h3>
+            <div class="py-2">
+              <a href="#"><i class="fab fa-facebook fa-2x mx-3" style="color: rgb(41, 123, 255);"></i></a>
+              <a href="#"><i class="fab fa-reddit fa-2x mx-3" style="color: rgb(255, 72, 0);"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x mx-3" style="color: rgb(0, 204, 255);"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x mx-3" style="color: rgb(255, 0, 0);"></i></a>
+              <a href="#"><i class="fab fa-github fa-2x mx-3" style="color: rgb(255, 255, 255);"></i></a>
+            </div>
+            <p class="text-muted py-3" style="font-size: 13px;">&copy; Copyright Michał Skiba 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
